@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>315</width>
+    <height>338</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>271</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>
+Currency Converter is a cross platform GUI
+application created using the Qt Framework.
+
+The application was written in C++ with the
+use of CSS for added visual effects while the
+exchange rate data is retrieved from a web
+service written in Ruby hosted on a remote
+web server. 
+
+
+(Author):    Dylan Arthur
+(Languages Used):    C++, CSS, Ruby
+(Available Platforms):    Win, Linux, Mac
+(Website)    www.dylan-arthur.com</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
